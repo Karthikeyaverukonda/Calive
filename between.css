@@ -1,0 +1,75 @@
+#b_main
+{
+  background-color: black;
+}
+
+#two_box
+{
+	border:2px solid transparent ;
+	background-color: transparent;
+ }
+
+.head
+{
+	font-family: 'Lato', cursive;
+	color:rgb(47, 186, 161);
+	font-size: 150%;
+}
+
+#result
+{
+	font-size: 150%;
+    font-weight: 400;
+    font-family: 'cursive'; 
+}
+
+.ed
+{
+font-family:"Lato";
+transform: translate(-35px,0px);
+font-size: 150%;
+color:rgb(95, 194, 29);
+}
+
+.sd
+{
+font-family:"Lato";
+transform: translate(-35px,0px);
+font-size: 150%;
+color:rgb(95, 194, 29);	
+}
+#syear,#smonth,#sdate,#edate,#eyear,#emonth
+{
+margin:2px;
+color: black;
+font-size: 150%;
+}
+
+.login
+{
+margin: 5px;
+padding: 5px;
+font-family:"Lato";
+font-weight: 200;
+font-size: 150%;
+color: white;
+background: rgb(66, 188, 245);
+transition:all 500ms ease;
+border-radius: 5px;
+}
+
+
+.login:hover
+{ 
+  background-color: #0032ff;
+  padding: 8px;	
+  border-radius: 50%;
+}
+
+.btw_head
+{
+	font-size: 225%;
+	font-family: "Lato";
+	color: orange;
+	background-color: black;
+}

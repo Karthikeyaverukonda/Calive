@@ -1,0 +1,110 @@
+
+
+#result
+{
+	font-size: 225%;
+    font-weight: 400;
+    font-family: 'cursive'; 
+}
+
+.head
+{
+	font-family: 'Lato', cursive;
+	color:rgb(47, 186, 161);
+	font-size: 200%;
+}
+
+
+
+.main
+{
+  /*background-image:url("../images/dhoni1.jpg");
+  background-size: 1550px 900px;*/
+  
+
+  background-color: black;
+  
+
+}
+
+.login
+{
+margin: 5px;
+padding: 5px;
+font-family:"Lato";
+font-weight: 200;
+font-size: 225%;
+color: white;
+background: rgb(66, 188, 245);
+transition:all 500ms ease;
+border-radius: 5px;
+}
+
+
+.login:hover
+{ 
+  background-color: #0032ff;
+  padding: 8px;	
+  border-radius: 50%;
+}
+
+.dob
+{
+font-family:"Lato";
+transform: translate(-35px,0px);
+font-size: 225%;
+color:rgb(95, 194, 29);
+}
+
+#bday
+{
+transform: translate(-73px,0px);	
+}
+
+.num
+{
+margin:2px;
+color: black;
+font-size: 225%;
+
+
+}
+
+#form_id
+{
+	color:white;
+
+}
+
+.btw_head
+{
+	font-size: 225%;
+	font-family: "Lato";
+	color: orange;
+	background-color: black;
+}
+
+.btw_navigate
+{
+margin: 5px;
+padding: 5px;
+font-family:"Lato";
+font-weight: 200;
+font-size: 225%;
+color: white;
+background: rgb(66, 188, 245);
+transition:all 500ms ease;
+border-radius: 5px;
+}
+
+.btw_navigate:hover
+{
+  background-color: #0032ff;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+
+
+
+

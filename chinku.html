@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">	  
+	  <link rel="stylesheet" type="text/css" href="chinku.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<title>TOTAL DAYS LIVED</title>
+
+</head>
+
+
+<body class="main">
+	<center>
+
+	<div  class="head"><h1>TOTAL NUMBER OF DAYS LIVED TILL DATE</h1></div>
+
+    <div  >
+    	<label for="DATE" class="dob"><b>ENTER DATE OF BIRTH &emsp; &ensp;</b></label>
+    	<br/>
+    	<br/>
+  	<div id="bday">
+
+  		 <form id="form_id"  name="myform">
+  		 <label style="font-size: 225%">YEAR : &ensp; &nbsp;</label>
+  		 <input type="NUMBER" id="year"  class="num" name="year" min="1901" max="2020" step="1" placeholder="YYYY" value=""></br>
+  		 <label style="font-size: 225%">MONTH: &nbsp;</label>
+  	     <input type="NUMBER" id="month" class="num" name="month" min="1" max="12" step="1" placeholder="MM" value=""></br>
+  	     <label style="font-size: 225%">DATE : &ensp; &nbsp;</label>
+  	     <input type="NUMBER" id="date"  class="num" name="date" min="1" max="31" step="1" placeholder="DD"  value=""></br></br>
+  	     </form>
+  	</div>
+</div>
+
+  	<div> <button class="login" onclick="calculate()">SUBMIT</button></div>
+
+  	<div  class="head-result"><h1 id="result"></h1> </div>
+
+  	<script src="chinku.js"></script>
+
+  	<div  class="btw_head"><p>Click Here To Calculate The No Of Days Between Two Dates.</p> </div>
+
+  	
+  	<div> <input type="button" class="btw_navigate"value="CLICK HERE" onclick="window.open('between.html','_self')" /></div>
+  
+</center>
+    
+</body>
+</html>

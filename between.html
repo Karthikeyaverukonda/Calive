@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">	  
+	  <link rel="stylesheet" type="text/css" href="between.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<title>NO OF DAYS BTW TWO DATES </title>
+
+</head>
+
+<body id="b_main" >
+	<center>
+	
+	<div  class="head"><h1>TOTAL NUMBER OF DAYS BETWEEN TWO DATES</h1></div>
+
+
+
+	<div id="two_box">
+
+   <div  ><h2 class='sd'>START DATE</h2>
+  	
+
+  		 
+  		 <label style="font-size: 150%; color: white;">YEAR : &ensp; &nbsp;</label>
+  		 <input type="NUMBER" id="syear"   name="s_year" min="1900" max="2100"  step="1" placeholder="YYYY" value=""></br>
+  		 <label style="font-size: 150% ; color: white;">MONTH: &nbsp;</label>
+  	     <input type="NUMBER" id="smonth"  name="s_month" min="1" max="12" step="1" placeholder="MM" value=""></br>
+  	     <label style="font-size: 150%; color: white;">DATE : &ensp; &nbsp;</label>
+  	     <input type="NUMBER" id="sdate"   name="s_date" min="1" max="31" step="1" placeholder="DD"  value=""></br></br>
+  	     
+  </div>
+
+
+
+   <div ><h2 class='ed'>END DATE</h2>
+  	 
+
+  		 
+  		 <label style="font-size: 150%; color: white;">YEAR : &ensp; &nbsp;</label>
+  		 <input type="NUMBER" id="eyear"  name="e_year" min="1900" max="2100" step="1" placeholder="YYYY" value=""></br>
+  		 <label style="font-size: 150%; color: white;">MONTH: &nbsp;</label>
+  	     <input type="NUMBER" id="emonth"  name="e_month" min="1" max="12" step="1" placeholder="MM" value=""></br>
+  	     <label style="font-size: 150%; color: white;">DATE : &ensp; &nbsp;</label>
+  	     <input type="NUMBER" id="edate"   name="e_date" min="1" max="31" step="1" placeholder="DD"  value=""></br></br>
+  	     
+  	</div>
+  	 
+  	<button class="login" onclick="car()">SUBMIT</button>
+
+  	<div ><h1 id="result"></h1> </div>
+
+  	<script src="between.js"></script>
+
+  	<div  class="btw_head"><p>Click Here To Calculate The No Of Days Lived Till Date</p> </div>
+  	<div> <input type="button" class="login" value="Click Here" onclick="window.open('chinku.html','_self')"  /></div>
+  	
+  	</center>
+  	</div>
+
+
+
+  	
+</body>
+</html>
